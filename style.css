@@ -1,0 +1,38 @@
+header{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 32px 56px 32px 56px;
+}
+#weatherinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: normal ;
+    height: 637px;
+}
+#temp{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.detail{
+    width: 440px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#date{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #B3B3B3;
+}
